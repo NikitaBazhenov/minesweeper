@@ -9,7 +9,8 @@ function Board({
         <div 
             className="game-board"
             style={{
-                width: itemsInRow * 30 + 'px'
+                width: itemsInRow * 30 + 'px',
+                display: 'block'
             }} 
         >
             {
