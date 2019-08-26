@@ -1,0 +1,19 @@
+.game-config
+    display: flex
+    justify-content: space-between
+    .new-game
+        cursor: pointer
+        transform: rotate(0deg)
+        transition: transform 0.4s ease, fill 0.4s ease
+        transform-origin: center
+        width: 30px
+        height: 30px
+        fill: rgba(0,0,0,0.3)
+        &:hover
+            transform: rotate(360deg)
+            fill: #45CDDE
+    .separator
+        width: 2px
+        height: 30px
+        background-color: rgba(0,0,0,0.1)
+        margin: 0 2rem
