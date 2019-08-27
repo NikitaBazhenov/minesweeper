@@ -1,5 +1,4 @@
-// eslint-disable-next-line
-import GameWorker from 'worker-loader!../game.worker.js';
+import GameWorker from '../game.worker.js';
 
 export default ({dispatch}) => {
     const worker = new GameWorker();
